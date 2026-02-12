@@ -48,7 +48,7 @@ const output = document.getElementById('output');
 
 visualizeBtn?.addEventListener('click', () => {
   if (!irInput || !output) return;
-  
+
   try {
     const data = JSON.parse(irInput.value);
     output.innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
