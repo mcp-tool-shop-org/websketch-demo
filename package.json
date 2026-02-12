@@ -5,13 +5,13 @@
   "author": "mcp-tool-shop <64996768+mcp-tool-shop@users.noreply.github.com>",
   "license": "MIT",
   "type": "module",
-  "homepage": "https://mcptoolshop.com",
+  "homepage": "https://github.com/mcp-tool-shop-org/websketch-demo#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcp-tool-shop/websketch-demo.git"
+    "url": "git+https://github.com/mcp-tool-shop-org/websketch-demo.git"
   },
   "bugs": {
-    "url": "https://github.com/mcp-tool-shop/websketch-demo/issues"
+    "url": "https://github.com/mcp-tool-shop-org/websketch-demo/issues"
   },
   "keywords": [
     "websketch",
@@ -34,7 +34,7 @@
     "test:coverage": "vitest --coverage"
   },
   "dependencies": {
-    "@websketch/ir": "^0.1.0"
+    "@mcptoolshop/websketch-ir": "^0.2.0"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",

@@ -1,9 +1,9 @@
 # websketch-demo
 
-[![CI - Build & Deploy](https://github.com/mcp-tool-shop/websketch-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/mcp-tool-shop/websketch-demo/actions/workflows/ci.yml)
+[![CI - Build & Deploy](https://github.com/mcp-tool-shop-org/websketch-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/mcp-tool-shop-org/websketch-demo/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Interactive demo site for [WebSketch IR](https://github.com/mcp-tool-shop/websketch-ir) - visualize grammar-based UI representation.
+Interactive demo site for [WebSketch IR](https://github.com/mcp-tool-shop-org/websketch-ir) - visualize grammar-based UI representation.
 
 **Live site**: [mcptoolshop.com](https://mcptoolshop.com)
 
@@ -32,7 +32,7 @@ Visit [mcptoolshop.com](https://mcptoolshop.com) and paste your WebSketch IR JSO
 
 ```bash
 # Clone the repository
-git clone https://github.com/mcp-tool-shop/websketch-demo.git
+git clone https://github.com/mcp-tool-shop-org/websketch-demo.git
 cd websketch-demo
 
 # Install dependencies
@@ -196,9 +196,9 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Links
 
-- **WebSketch IR**: [github.com/mcp-tool-shop/websketch-ir](https://github.com/mcp-tool-shop/websketch-ir)
+- **WebSketch IR**: [github.com/mcp-tool-shop-org/websketch-ir](https://github.com/mcp-tool-shop-org/websketch-ir)
 - **Live Demo**: [mcptoolshop.com](https://mcptoolshop.com)
-- **Issues**: [github.com/mcp-tool-shop/websketch-demo/issues](https://github.com/mcp-tool-shop/websketch-demo/issues)
+- **Issues**: [github.com/mcp-tool-shop-org/websketch-demo/issues](https://github.com/mcp-tool-shop-org/websketch-demo/issues)
 
 ## Support
 

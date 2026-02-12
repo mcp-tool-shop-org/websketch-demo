@@ -33,7 +33,7 @@ app.innerHTML = `
     <footer>
       <p>
         Learn more: 
-        <a href="https://github.com/mcp-tool-shop/websketch-ir" target="_blank" rel="noopener">
+        <a href="https://github.com/mcp-tool-shop-org/websketch-ir" target="_blank" rel="noopener">
           WebSketch IR on GitHub
         </a>
       </p>

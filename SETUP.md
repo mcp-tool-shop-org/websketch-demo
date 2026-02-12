@@ -20,7 +20,7 @@ Ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/mcp-tool-shop/websketch-demo.git
+git clone https://github.com/mcp-tool-shop-org/websketch-demo.git
 cd websketch-demo
 ```
 
@@ -227,13 +227,13 @@ netlify deploy --prod --dir=dist
 ## Getting Help
 
 - **Documentation**: Check [README.md](README.md) and [CONTRIBUTING.md](CONTRIBUTING.md)
-- **Issues**: Search [existing issues](https://github.com/mcp-tool-shop/websketch-demo/issues)
-- **New Issue**: [Create an issue](https://github.com/mcp-tool-shop/websketch-demo/issues/new/choose)
+- **Issues**: Search [existing issues](https://github.com/mcp-tool-shop-org/websketch-demo/issues)
+- **New Issue**: [Create an issue](https://github.com/mcp-tool-shop-org/websketch-demo/issues/new/choose)
 
 ## Next Steps
 
 1. Read the [CONTRIBUTING.md](CONTRIBUTING.md) guide
-2. Check the [open issues](https://github.com/mcp-tool-shop/websketch-demo/issues)
+2. Check the [open issues](https://github.com/mcp-tool-shop-org/websketch-demo/issues)
 3. Make your first contribution!
 
 Happy coding! 🚀
