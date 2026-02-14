@@ -30,6 +30,7 @@
     "format": "prettier --write 'src/**/*.{ts,tsx,css,html}'",
     "format:check": "prettier --check 'src/**/*.{ts,tsx,css,html}'",
     "test": "vitest",
+    "test:run": "vitest run",
     "test:ui": "vitest --ui",
     "test:coverage": "vitest --coverage"
   },
