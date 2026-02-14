@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/websketch-logo.png" alt="WebSketch" width="400">
+</p>
+
 # websketch-demo
 
 [![CI - Build & Deploy](https://github.com/mcp-tool-shop-org/websketch-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/mcp-tool-shop-org/websketch-demo/actions/workflows/ci.yml)
