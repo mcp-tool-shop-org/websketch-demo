@@ -24,8 +24,11 @@ describe('JSON parsing for demo input', () => {
       viewport: { w_px: 1920, h_px: 1080, aspect: 1920 / 1080 },
       compiler: { name: 'websketch-ir', version: '0.2.1', options_hash: 'test' },
       root: {
-        id: '', role: 'PAGE', bbox: [0, 0, 1, 1],
-        interactive: false, visible: true,
+        id: '',
+        role: 'PAGE',
+        bbox: [0, 0, 1, 1],
+        interactive: false,
+        visible: true,
       },
     };
     const json = JSON.stringify(capture);
@@ -52,8 +55,11 @@ describe('validateCapture for demo', () => {
       viewport: { w_px: 1920, h_px: 1080, aspect: 1920 / 1080 },
       compiler: { name: 'websketch-ir', version: '0.2.1', options_hash: 'test' },
       root: {
-        id: '', role: 'PAGE', bbox: [0, 0, 1, 1],
-        interactive: false, visible: true,
+        id: '',
+        role: 'PAGE',
+        bbox: [0, 0, 1, 1],
+        interactive: false,
+        visible: true,
       },
     };
     const issues = validateCapture(capture);
@@ -96,8 +102,11 @@ describe('validateCapture for demo', () => {
       viewport: { w_px: 1920, h_px: 1080, aspect: 1920 / 1080 },
       compiler: { name: 'websketch-ir', version: '0.2.1', options_hash: 'test' },
       root: {
-        id: '', role: 'PAGE', bbox: [0, 0, 1, 1],
-        interactive: false, visible: true,
+        id: '',
+        role: 'PAGE',
+        bbox: [0, 0, 1, 1],
+        interactive: false,
+        visible: true,
         children,
       },
     };
