@@ -5,6 +5,9 @@
   "author": "mcp-tool-shop <64996768+mcp-tool-shop@users.noreply.github.com>",
   "license": "MIT",
   "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "homepage": "https://github.com/mcp-tool-shop-org/websketch-demo#readme",
   "repository": {
     "type": "git",
