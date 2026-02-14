@@ -111,6 +111,10 @@ function processData(input: string): { result: string; valid: boolean } {
 - Tests should be in `src/__tests__/` directory
 - Use descriptive test names
 
+#### Test Quality
+
+Placeholder tests are not allowed on `main`. If a feature needs tests but you can't write them yet, use `it.skip('description', ...)` with a link to a tracking issue. The CI will reject patterns like `expect(true).toBe(true)` or `expect(1 + 1).toBe(2)`.
+
 Example:
 
 ```typescript
