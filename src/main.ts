@@ -94,6 +94,13 @@ function buildSingleMode(): void {
   visualizeBtn.id = 'visualize-btn';
   inputPane.appendChild(visualizeBtn);
 
+  const exportBtn = document.createElement('button');
+  exportBtn.textContent = 'Export Bundle';
+  exportBtn.id = 'export-btn';
+  exportBtn.className = 'secondary-btn';
+  exportBtn.disabled = true;
+  inputPane.appendChild(exportBtn);
+
   // Issues pane
   const issuesPane = document.createElement('div');
   issuesPane.className = 'pane';
@@ -189,12 +196,48 @@ function buildSingleMode(): void {
     okDiv.textContent = 'Valid capture — no issues.';
     issuesList.appendChild(okDiv);
 
+    // Surface embedded warnings (e.g. truncation from extension)
+    const rawCapture = data as Record<string, unknown>;
+    if (Array.isArray(rawCapture.warnings)) {
+      for (const w of rawCapture.warnings) {
+        const warnDiv = document.createElement('div');
+        warnDiv.className = 'issue-item warning';
+        warnDiv.textContent = `Warning: ${String(w)}`;
+        issuesList.appendChild(warnDiv);
+      }
+    }
+
     treeElement = renderTree(capture);
     asciiElement = document.createElement('pre');
     asciiElement.className = 'ascii-output';
     asciiElement.textContent = renderAscii(capture);
 
+    exportBtn.disabled = false;
+
     showTab(activeTab);
+  });
+
+  // Export bundle handler
+  exportBtn.addEventListener('click', () => {
+    let data: unknown;
+    try {
+      data = JSON.parse(textarea.value);
+    } catch {
+      return;
+    }
+    const bundle = {
+      schemaVersion: '0.1',
+      createdAt: new Date().toISOString(),
+      tool: 'websketch-demo',
+      captures: [{ source: 'editor', capture: data }],
+    };
+    const blob = new Blob([JSON.stringify(bundle, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'bundle.ws.json';
+    a.click();
+    URL.revokeObjectURL(url);
   });
 }
 

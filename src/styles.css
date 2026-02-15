@@ -259,6 +259,28 @@ button:active {
   border-left: 3px solid var(--success);
 }
 
+.issue-item.warning {
+  background: #fffbeb;
+  color: var(--warning);
+  border-left: 3px solid var(--warning);
+}
+
+.secondary-btn {
+  background: var(--surface);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  margin-left: 0.5rem;
+}
+
+.secondary-btn:hover:not(:disabled) {
+  background: var(--background);
+}
+
+.secondary-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .validation-header {
   font-weight: 600;
   color: var(--error);

@@ -11,13 +11,27 @@ Interactive demo site for [WebSketch IR](https://github.com/mcp-tool-shop-org/we
 
 **Live site**: [mcptoolshop.com](https://mcptoolshop.com)
 
+## Getting Started
+
+1. Visit [mcptoolshop.com](https://mcptoolshop.com)
+2. Paste a WebSketch capture JSON into the Input pane
+3. Click **Visualize** to see Tree and ASCII views
+4. Switch to **Compare** mode to diff two captures side-by-side
+5. Click **Export Bundle** to download a shareable `.ws.json` file
+
+Captures are created with the [Chrome extension](https://github.com/mcp-tool-shop-org/websketch-extension). See the full [workflow guide](https://github.com/mcp-tool-shop-org/websketch-ir#getting-started).
+
 ## Features
 
 - 🎨 Interactive visualization of WebSketch IR grammar
 - 📝 Live JSON editor with syntax validation
+- 🌳 Tree view with role badges, semantic hints, and bbox info
+- 🔤 ASCII wireframe rendering
+- 🔍 Compare mode with side-by-side ASCII and diff summary
+- 📦 Export bundle for sharing captures
+- ⚠️ Embedded warning display for truncated captures
 - 🚀 Fast, lightweight vanilla TypeScript implementation
 - 📱 Responsive design for all devices
-- ✨ Clean, modern UI with accessibility support
 
 ## Quick Start
 
