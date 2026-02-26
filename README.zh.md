@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="README.ja.md">日本語</a> | <a href="README.zh.md">中文</a> | <a href="README.es.md">Español</a> | <a href="README.fr.md">Français</a> | <a href="README.hi.md">हिन्दी</a> | <a href="README.it.md">Italiano</a> | <a href="README.pt-BR.md">Português (BR)</a>
+  <a href="README.ja.md">日本語</a> | <a href="README.md">English</a> | <a href="README.es.md">Español</a> | <a href="README.fr.md">Français</a> | <a href="README.hi.md">हिन्दी</a> | <a href="README.it.md">Italiano</a> | <a href="README.pt-BR.md">Português (BR)</a>
 </p>
 
 <p align="center">
@@ -12,40 +12,40 @@
   <a href="https://mcp-tool-shop-org.github.io/websketch-demo/"><img src="https://img.shields.io/badge/Landing_Page-live-blue" alt="Landing Page"></a>
 </p>
 
-Interactive demo site for [WebSketch IR](https://github.com/mcp-tool-shop-org/websketch-ir) — visualize grammar-based UI representation.
+[WebSketch IR](https://github.com/mcp-tool-shop-org/websketch-ir) 的交互式演示站点，用于可视化基于语法的用户界面表示。
 
-## Getting Started
+## 入门
 
-1. Visit the [live demo](https://mcp-tool-shop-org.github.io/websketch-demo/)
-2. Paste a WebSketch capture JSON into the Input pane
-3. Click **Visualize** to see Tree and ASCII views
-4. Switch to **Compare** mode to diff two captures side-by-side
-5. Click **Export Bundle** to download a shareable `.ws.json` file
+1. 访问[在线演示](https://mcp-tool-shop-org.github.io/websketch-demo/)
+2. 将 WebSketch 捕获的 JSON 粘贴到输入区域
+3. 点击“可视化”按钮，查看树状图和 ASCII 视图
+4. 切换到“比较”模式，并排比较两个捕获结果
+5. 点击“导出包”，下载可共享的 `.ws.json` 文件
 
-Captures are created with the [Chrome extension](https://github.com/mcp-tool-shop-org/websketch-extension). See the full [workflow guide](https://github.com/mcp-tool-shop-org/websketch-ir#getting-started).
+捕获数据由 [Chrome 扩展程序](https://github.com/mcp-tool-shop-org/websketch-extension) 创建。请参阅完整的[工作流程指南](https://github.com/mcp-tool-shop-org/websketch-ir#getting-started)。
 
-## Features
+## 特性
 
-- Interactive visualization of WebSketch IR grammar
-- Live JSON editor with syntax validation
-- Tree view with role badges, semantic hints, and bbox info
-- ASCII wireframe rendering
-- Compare mode with side-by-side ASCII and diff summary
-- Export bundle for sharing captures
-- Embedded warning display for truncated captures
-- Fast, lightweight vanilla TypeScript implementation
-- Responsive design for all devices
+- 交互式可视化 WebSketch IR 语法
+- 实时 JSON 编辑器，带语法验证
+- 树状视图，带有角色标签、语义提示和边界框信息
+- ASCII 骨架图渲染
+- 比较模式，并排显示 ASCII 视图和差异摘要
+- 导出包，用于共享捕获数据
+- 内嵌警告显示，用于截断的捕获数据
+- 快速、轻量级的原生 TypeScript 实现
+- 响应式设计，适用于所有设备
 
-## Quick Start
+## 快速开始
 
-### For Developers
+### 面向开发者
 
-#### Prerequisites
+#### 先决条件
 
 - Node.js 20+
-- npm or yarn
+- npm 或 yarn
 
-#### Installation
+#### 安装
 
 ```bash
 git clone https://github.com/mcp-tool-shop-org/websketch-demo.git
@@ -55,9 +55,9 @@ npm ci
 npm run dev
 ```
 
-The app will open at `http://localhost:3000`.
+应用程序将在 `http://localhost:3000` 启动。
 
-#### Available Scripts
+#### 可用脚本
 
 ```bash
 npm run dev              # Start dev server with hot reload
@@ -72,7 +72,7 @@ npm test                 # Run tests in watch mode
 npm run test:coverage    # Generate coverage report
 ```
 
-## Project Structure
+## 项目结构
 
 ```
 websketch-demo/
@@ -90,24 +90,24 @@ websketch-demo/
 └── vitest.config.ts        # Vitest configuration
 ```
 
-## Technology Stack
+## 技术栈
 
-- **Framework**: Vanilla TypeScript (no framework overhead)
-- **Build Tool**: Vite
-- **Testing**: Vitest
-- **Linting**: ESLint + TypeScript ESLint
-- **Formatting**: Prettier
+- **框架**: 原生 TypeScript (无框架负担)
+- **构建工具**: Vite
+- **测试**: Vitest
+- **代码检查**: ESLint + TypeScript ESLint
+- **代码格式化**: Prettier
 - **CI/CD**: GitHub Actions
 
-## Links
+## 链接
 
 - **WebSketch IR**: [github.com/mcp-tool-shop-org/websketch-ir](https://github.com/mcp-tool-shop-org/websketch-ir)
-- **Issues**: [github.com/mcp-tool-shop-org/websketch-demo/issues](https://github.com/mcp-tool-shop-org/websketch-demo/issues)
+- **问题反馈**: [github.com/mcp-tool-shop-org/websketch-demo/issues](https://github.com/mcp-tool-shop-org/websketch-demo/issues)
 
-## License
+## 许可证
 
-MIT — see [LICENSE](LICENSE).
+MIT — 参见 [LICENSE](LICENSE)。
 
 ---
 
-Built by <a href="https://mcp-tool-shop.github.io/">MCP Tool Shop</a>
+由 <a href="https://mcp-tool-shop.github.io/">MCP Tool Shop</a> 构建。
