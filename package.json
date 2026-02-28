@@ -1,5 +1,5 @@
 {
-  "name": "websketch-demo",
+  "name": "@mcptoolshop/websketch-demo",
   "version": "1.0.0",
   "description": "Interactive demo site for WebSketch IR - visualize UI representation",
   "author": "mcp-tool-shop <64996768+mcp-tool-shop@users.noreply.github.com>",
